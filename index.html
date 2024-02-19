@@ -1,26 +1,89 @@
 <!DOCTYPE html>
-	<html lang="fr">
+	<html lang="en">
 
 	<head>
     	<meta charset="UTF-8">
-    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Normalise the CSS to remove browser inconsistencies  -->
         <link rel="stylesheet" href="https://unpkg.com/normalize.css">
         <link rel="stylesheet" href="styles.css">
-    	<title>Tech Returners Surgery: Home</title>
+    	<title>Tech Returners News</title>
 	</head>
     <body>
         <header>
-
+            <h1>Teach Returner News</h1>
         </header>
         <nav>
-            <ul>
-                <li></li>
-            </ul>
+            <a href="">News</a>
+            <a href="">Opinion</a>
+            <a href="">Tech</a>
+            <a href="">Sport</a>
+            <a href="">Culture</a>
+            <a href="">About</a>
+            <a href=""></a>
         </nav>
-        <section>
-            <h2>This is a temporary heading</h2>
-        </section>
+        <form>
+            <p>We aim to make this site accessible to a wide audience 
+                and to ensure a great experience for all 
+                users by conforming to <a href="https://www.w3.org/">Wide Web Consortium 
+                    accessibility guidelines (W3C's WCAG)</a></p>
+                <label for='flashing-elements'>Allow flashing elements Untick this to disable flashing and moving elements.</label>
+                <input type="checkbox" id="flashing-elements">
+
+        </form>
+        <article>
+            <header>
+                <h2>Accessibility Features: Easy Wins</h2>
+            </header>
+            <!-- Subheader needed here -->
+            <h3>Handy tips on how to create accessible websites for everyone</h3>
+            <section>
+                <h4>Introduction:</h4>
+                <p>Tim Berners Lee dreamt of a World Wide Web that would be free and accessible to everyone. 
+                    Sadly, the modern web is littered with poorly designed websites and difficult to navigate code (for both developers and users). 
+                    This often comes down to a lack of understanding around different user needs. 
+                    Designing pages that are accessible for everyone shouldn’t be too difficult.
+                     The developers at Tech Returners News have collated an ‘easy wins' checklist for Web page accessibility. 
+                    Keep this guide handy… When creating your own websites you can check these criteria off the list!
+                </p>
+            </section>
+            <img src="accessibility.jpg" alt="a keyboard showing a blue key labelled 'accessibility' alongside a small, brightly coloured world globe">
+            <section>
+                <h4>Accessibility Checks:</h4>
+                <p>Heading elements & Page Titles: HTML heading elements have been used to represent page structure, supporting assistive technologies 
+                    that allow page navigation from heading to heading. 
+                    Re-size Text: You can vary text size by using your browser's text resize settings (through Options or Preferences), text-only zoom, 
+                    page zoom (which also zooms images, buttons etc) without incurring styling issues / text over-lapping or being cut off the page. 
+                    Alternative text for images: All images have been given appropriate alternative text. 
+                    Link text: All hyperlinks should make sense when read out of context, and hyperlinks are clearly presented in a different text style from normal body text. 
+                    If a link opens in a new browser page, it has been labelled as doing so. 
+                    JavaScript independence: Where JavaScript or other scripts are used for navigation or functionality, 
+                    an alternative mechanism has been put in place in case your browser does not support these scripts. 
+                    Colour contrast: has been checked for text and background colour combinations to ensure that the contrast is sufficient 
+                    and I have also ensured that information is not referenced by colour alone. 
+                    Style sheets: If style sheets are not supported or are turned off, information on the site can still be accessed and read. 
+                    Forms: forms are marked up correctly so people can interact with them using only the keyboard, voice input or screen readers. 
+                    The form labels themselves are clickable, increasing the target area and making it easier to select small radio buttons of checkboxes.
+                </p>
+                <a href="https://www.w3schools.com/html/html5_semantic_elements.asp">For more information on Web Accessibility view: Easy Checks – A First Review of Web Accessibility.</a>
+            </section>
+            <section>
+                <h4>Conclusion:</h4>
+                <p>By spending just a little more time on getting the building blocks of the web right, developers can help create an Internet that works for everyone.</p>
+            </section>
+            <footer>
+                <p>Author: Jim Eggs</p>
+                <p><a href="mailto:jimmy.eggs@hotmail.com">Jim Eggs</a></p>
+                <p>Published: <time datetime="2021-08-04">04.08.21</time></p>
+            </footer>
+        </article>
+        <footer>
+            <a href="">News</a>
+            <a href="">Opinion</a>
+            <a href="">Sport</a>
+            <a href="">Culture</a>
+            <a href="">Tech</a>
+            <small>&copy;2021 Tech Returners</small>
+        </footer>
     </body>
 </html>
